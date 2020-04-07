@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".P2.Main1Fragment">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:id="@+id/rg"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radio1"
+                android:textSize="20dp"
+                android:text="Blue"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radio2"
+                android:textSize="20dp"
+                android:text="Yellow"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radio3"
+                android:textSize="20dp"
+                android:text="Red"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radio4"
+                android:textSize="20dp"
+                android:text="Black"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radio5"
+                android:textSize="20dp"
+                android:text="Green"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radio6"
+                android:textSize="20dp"
+                android:text="Gray"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radio7"
+                android:textSize="20dp"
+                android:text="White"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radio8"
+                android:textSize="20dp"
+                android:text="Magenta"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radio9"
+                android:textSize="20dp"
+                android:text="Cyan"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radio10"
+                android:textSize="20dp"
+                android:text="LTGray"/>
+
+
+
+        </RadioGroup>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

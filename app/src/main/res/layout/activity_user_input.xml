@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P4.UserInput">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:text="Write and view the text from file"
+        android:textStyle="bold"
+        android:textSize="28sp" />
+
+   <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+       android:id="@+id/fr"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/textView1">
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_edittext"/>
+
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_cancel_black_24dp"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Write Text into File"
+        android:onClick="WriteBtn"
+        android:background="@drawable/hover"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignRight="@+id/fr"
+        android:layout_alignEnd="@+id/fr" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hover"
+        android:text="Read Text From file"
+        android:onClick="ReadBtn"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/fr"
+        android:layout_alignStart="@+id/fr" />
+
+</RelativeLayout>

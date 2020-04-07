@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:fitsSystemWindows="true"
+    tools:context=".P5.Fragment">
+
+
+
+
+
+    <fragment
+        android:id="@+id/one_fragment"
+        android:name="com.t.androidca2project.P5.FragmentOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        tools:layout="@layout/activity_fragment_one" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="200dp"
+        android:background="#c0c0c0"/>
+
+    <fragment
+        android:id="@+id/two_fragment"
+        android:name="com.t.androidca2project.P5.FragmentTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        tools:layout="@layout/activity_fragment_two" />
+
+</RelativeLayout>
